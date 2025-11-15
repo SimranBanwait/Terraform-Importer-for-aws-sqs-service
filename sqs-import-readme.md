@@ -245,7 +245,7 @@ After running the script, your project structure will look like:
 
 ### Running the Script
 
-![Script Execution](https://github.com/user/repo/images/script-execution.png)
+assets/Before-1.png
 *The script discovers and processes 8 SQS queues*
 
 ### Terraform Init
