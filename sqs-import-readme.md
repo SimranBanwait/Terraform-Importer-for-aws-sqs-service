@@ -243,35 +243,51 @@ After running the script, your project structure will look like:
 
 ## 📸 Examples
 
+### Before script execution
+![image alt](https://github.com/SimranBanwait/Terraform-Importer-for-aws-sqs-service/blob/ae7a7b4912798c963793700b28161b9efd1e2967/assets/Before-1.png)
+
+
 ### Running the Script
 
-assets/Before-1.png
 *The script discovers and processes 8 SQS queues*
+![image alt](https://github.com/SimranBanwait/Terraform-Importer-for-aws-sqs-service/blob/ae7a7b4912798c963793700b28161b9efd1e2967/assets/Execution-started.png)
 
-### Terraform Init
-
-![image alt](https://github.com/SimranBanwait/Terraform-Importer-for-aws-sqs-service/blob/fef4745cc53971a824bb494ce567d234185d48e7/assets/Before-1.png)
-*Initializing Terraform with the new module*
 
 ### Import Success
 
-![Import Success](https://github.com/user/repo/images/import-success.png)
 *Successfully importing queues into Terraform state*
+![image alt](https://github.com/SimranBanwait/Terraform-Importer-for-aws-sqs-service/blob/ae7a7b4912798c963793700b28161b9efd1e2967/assets/Module-calls-created.png)
+
+
+### Script execution completed
+
+![image alt](https://github.com/SimranBanwait/Terraform-Importer-for-aws-sqs-service/blob/ae7a7b4912798c963793700b28161b9efd1e2967/assets/Execution-completed.png)
+
 
 ### Terraform Plan
 
-![Terraform Plan](https://github.com/user/repo/images/terraform-plan.png)
 *Verification showing no changes needed*
+![image alt](https://github.com/SimranBanwait/Terraform-Importer-for-aws-sqs-service/blob/5f8096131623e8cdda972f4b797945dfbb3f6d47/assets/terraform%20plan.png)
+
 
 ### State List
 
-![State List](https://github.com/user/repo/images/state-list.png)
 *All 8 queues successfully imported*
+![image alt](https://github.com/SimranBanwait/Terraform-Importer-for-aws-sqs-service/blob/ae7a7b4912798c963793700b28161b9efd1e2967/assets/Imported-resources.png)
 
 ### Generated Configuration
 
-![Generated Config](https://github.com/user/repo/images/generated-config.png)
 *Module call with actual queue configuration*
+![image alt](https://github.com/SimranBanwait/Terraform-Importer-for-aws-sqs-service/blob/ae7a7b4912798c963793700b28161b9efd1e2967/assets/After-1.png)
+![image alt](https://github.com/SimranBanwait/Terraform-Importer-for-aws-sqs-service/blob/ae7a7b4912798c963793700b28161b9efd1e2967/assets/After-2.png)
+
+
+
+
+
+
+
+
 
 ## 🐛 Troubleshooting
 
@@ -283,6 +299,7 @@ assets/Before-1.png
 - Verify your AWS credentials are configured correctly
 - Check you have permissions to list SQS queues
 - Ensure queues exist in the specified region
+
 
 ### Import Failures
 
