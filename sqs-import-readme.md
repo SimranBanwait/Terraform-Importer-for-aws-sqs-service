@@ -250,7 +250,7 @@ assets/Before-1.png
 
 ### Terraform Init
 
-https://github.com/SimranBanwait/Terraform-Importer-for-aws-sqs-service/blob/fef4745cc53971a824bb494ce567d234185d48e7/assets/Before-1.png
+![image alt](https://github.com/SimranBanwait/Terraform-Importer-for-aws-sqs-service/blob/fef4745cc53971a824bb494ce567d234185d48e7/assets/Before-1.png)
 *Initializing Terraform with the new module*
 
 ### Import Success
